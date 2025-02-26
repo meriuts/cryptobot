@@ -30,6 +30,9 @@ repositories {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
+	implementation("org.springframework.boot:spring-boot-starter-data-redis")
+
+
 	implementation("org.telegram:telegrambots:$telegrambotsVersion")
 
 	implementation("org.postgresql:postgresql:$postgresqlDriverVersion")
